@@ -66,7 +66,3 @@ android {
 
   resourcePrefix 'emoji_twitter_'
 }
-
-mavenPublishing {
-  configure(new KotlinMultiplatform())
-}

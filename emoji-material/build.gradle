@@ -66,7 +66,3 @@ android {
 
   resourcePrefix 'emoji'
 }
-
-mavenPublishing {
-  configure(new KotlinMultiplatform())
-}

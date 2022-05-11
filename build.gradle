@@ -57,15 +57,4 @@ allprojects {
       ].contains(it.name)
     }
   }
-
-  plugins.withId("com.vanniktech.maven.publish.base") {
-    group = "com.vanniktech"
-    version = VERSION_NAME
-
-    mavenPublishing {
-      publishToMavenCentral("DEFAULT")
-      signAllPublications()
-      pomFromGradleProperties()
-    }
-  }
 }

@@ -70,7 +70,3 @@ android {
 dependencies {
   api project(':emoji')
 }
-
-mavenPublishing {
-  configure(new KotlinMultiplatform())
-}

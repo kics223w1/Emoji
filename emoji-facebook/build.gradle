@@ -1,5 +1,3 @@
-import com.vanniktech.maven.publish.KotlinMultiplatform
-
 plugins {
   alias(libs.plugins.publish)
   alias(libs.plugins.dokka)
@@ -64,8 +62,4 @@ android {
   }
 
   resourcePrefix 'emoji_facebook_'
-}
-
-mavenPublishing {
-  configure(new KotlinMultiplatform())
 }
